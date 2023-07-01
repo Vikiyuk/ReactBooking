@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"],input[type="password"],
+input[type="email"],input[type="number"],
+input[type="tel"],
+textarea{
+    @apply w-full border my-1 py-2 px-3 rounded-2xl;
+}
+textarea{
+    height: 140px;
+}
+button{
+    @apply bg-gray-300;
+}
+button.primary{
+    background-color: #a070fa;
+    @apply  p-2 w-full text-white rounded-2xl;
+}
+.bg-primary2
+{
+    background-color: #a070fa;
+}
+svg
+{
+    position: relative
+}
+.center
+{
+    justify-content: center;
+}
+.records
+{
+    padding:1vw;
+
+    border-radius: 0.5vw;
+    background-color: #2ecc71;
+    color: white;
+    box-shadow: 2px 2px 20px 5px #7fecad;
+}
+.records:hover
+{
+    padding:1vw;
+
+    border-radius: 0.5vw;
+    background-color: #3ab1b4;
+    color: white;
+    box-shadow: 2px 2px 20px 10px #61c8cb;
+    transition: 0.3s;
+}
